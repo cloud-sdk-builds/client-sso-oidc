@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-sso-oidc`](https://www.npmjs.com/package/@aws-sdk/client-sso-oidc/v/3.731.0).
+[`@aws-sdk/client-sso-oidc`](https://www.npmjs.com/package/@aws-sdk/client-sso-oidc/v/3.731.1).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-sso-oidc@3.731.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-sso-oidc@3.731.1/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-Ohql91zGPWQmw2iPL1jnk0EnI5s9LCSZnhHzcxmq2Y23tGY7z4i+s93eJ3bz2KtU
+sha384-f0oBq5gGvxC1QK8z3GJCSJYxvUlQYlX7QKVy92r0buUvCqlE8uH4/qEB6vzs7ei/
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-sso-oidc": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-sso-oidc@3.731.0/index.min.mjs"
+            "@aws-sdk/client-sso-oidc": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-sso-oidc@3.731.1/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-sso-oidc@3.731.0/index.min.mjs": "sha384-Ohql91zGPWQmw2iPL1jnk0EnI5s9LCSZnhHzcxmq2Y23tGY7z4i+s93eJ3bz2KtU"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-sso-oidc@3.731.1/index.min.mjs": "sha384-f0oBq5gGvxC1QK8z3GJCSJYxvUlQYlX7QKVy92r0buUvCqlE8uH4/qEB6vzs7ei/"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-sso-oidc": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-sso-oidc@3.731.0/index.min.mjs"
+                        "@aws-sdk/client-sso-oidc": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-sso-oidc@3.731.1/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-sso-oidc@3.731.0/index.min.mjs": "sha384-Ohql91zGPWQmw2iPL1jnk0EnI5s9LCSZnhHzcxmq2Y23tGY7z4i+s93eJ3bz2KtU"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-sso-oidc@3.731.1/index.min.mjs": "sha384-f0oBq5gGvxC1QK8z3GJCSJYxvUlQYlX7QKVy92r0buUvCqlE8uH4/qEB6vzs7ei/"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.731.0`)
+* Always pin to a specific version (`@3.731.1`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-sso-oidc/blob/refs/tags/3.731.0/LICENSE
+https://github.com/cloud-sdk-builds/client-sso-oidc/blob/refs/tags/3.731.1/LICENSE
 ```
 
 ---
